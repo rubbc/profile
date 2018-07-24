@@ -1,0 +1,147 @@
+/*general*/
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+
+.banner{
+  width: 70vw;
+  margin: 10vh auto;
+}
+
+
+/*Section 1*/
+#presentation{
+  width: 100%;
+/*  height: 80vh;*/
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px 0;
+  background-color: #2287C2;
+}
+
+
+#profil-pic{
+  height: 250px;
+  border-radius: 50%;
+}
+
+.description{
+  color: #dbdbdb;
+  line-height: 40px;
+  padding: 0 20%;
+  font-size: 20px;
+}
+
+#prenom{
+  font-family: 'Comfortaa', cursive;
+  color: white;
+}
+
+.poste{
+  color: #13394f;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.list{
+  padding-left: 0;
+  list-style: none;
+  margin: 50px 0;
+}
+
+.list-item-inline{
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 30px;
+}
+
+.list-item-inline  a{
+  color: white;
+}
+
+.list-item-inline  a:hover{
+  color: black;
+}
+
+#button-white{
+  text-align: center;
+  font-size: 15px;
+  background-color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #2287C2;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  border-radius: 4px;
+}
+
+#button-white:hover{
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  background-color: #2287C2;
+  padding: 10px 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  border-radius: 4px;
+}
+
+
+
+
+/*Section 2*/
+
+.section-title{
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 100;
+  color: #2287C2;
+  margin: 0;
+  text-align: center;
+  margin-top: -50px;
+}
+
+.city-pic{
+  height: 40vh;
+}
+
+#cities{
+  width: 50vw;
+}
+
+tr th{
+  color: #2287C2;
+  text-align: left;
+  text-transform: capitalize;
+  letter-spacing: 5px;
+}
+
+.city-title{
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-weight: lighter;
+}
+
+
+/*Footer*/
+
+#footer{
+  height: 20vh;
+  background-color: #13394f;
+}
+
+#footer h2{
+  color: white;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
