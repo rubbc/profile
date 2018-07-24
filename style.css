@@ -19,17 +19,20 @@ body{
   margin: 0 auto;
   text-align: center;
   padding: 50px 0;
-  background-color: #2287C2;
+  background-image: url("IMAGE_URL"), linear-gradient(#eb01a5, #d13531);
+/*  background-color: #2287C2;*/
 }
 
 
 #profil-pic{
   height: 250px;
   border-radius: 50%;
+  margin-bottom: 20px;
 }
 
 .description{
-  color: #dbdbdb;
+  color: rgba(0,0,0,.54);
+  font-weight: 100;
   line-height: 40px;
   padding: 0 20%;
   font-size: 20px;
@@ -41,7 +44,7 @@ body{
 }
 
 .poste{
-  color: #13394f;
+  color: white;
   font-weight: 200;
   font-size: 20px;
 }
@@ -69,20 +72,21 @@ body{
 #button-white{
   text-align: center;
   font-size: 15px;
-  background-color: white;
+/*  background-color: white;*/
+  border: 1px solid white;
   padding: 10px 15px;
   text-decoration: none;
-  color: #2287C2;
+  color: white;
   text-transform: uppercase;
   letter-spacing: 4px;
   border-radius: 4px;
 }
 
 #button-white:hover{
-  color: white;
+  color: #eb01a5;
   text-align: center;
   font-size: 15px;
-  background-color: #2287C2;
+  background-color: white;
   padding: 10px 15px;
   text-decoration: none;
   text-transform: uppercase;
@@ -96,10 +100,11 @@ body{
 /*Section 2*/
 
 .section-title{
-  text-transform: uppercase;
+  font-family: 'Comfortaa', cursive;
+  text-transform: capitalize;
   letter-spacing: 3px;
   font-weight: 100;
-  color: #2287C2;
+  color: lightgrey;
   margin: 0;
   text-align: center;
   margin-top: -50px;
@@ -164,6 +169,25 @@ tr th{
 
 #page-content {
   margin-left: 10%;
+}
+
+
+/*form guest*/
+
+#form-guests
+{
+  padding: 10px 140px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.form-group label{
+  color: lightgrey;
+  font-size: 20px;
+}
+
+
+input.form-control{
+  border: none;
 }
 
 
