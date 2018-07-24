@@ -126,21 +126,45 @@ tr th{
   font-weight: lighter;
 }
 
+/*sidebar*/
 
-/*Footer*/
-
-#footer{
-  height: 20vh;
-  background-color: #13394f;
+#sidebar {
+  background-color: white;
+  border-right: 1px solid lightgrey;
+  padding: 100px 5px;
+  position: fixed;
+  width: 10%;
+  left: 0;
+  top: 0;
+  bottom: 0;
 }
 
-#footer h2{
-  color: white;
-  margin: 0 auto;
+.page-links{
+  text-decoration: none;
+  color: lightgrey;
+  text-transform: uppercase;
+  font-size: 12px;
+  display: block;
+  letter-spacing: 3px;
+  text-align: center;
+  line-height: 40px;
+}
+
+.page-links:hover{
+  text-decoration: none;
+  color: #2287C2;
+  text-transform: uppercase;
+  font-size: 12px;
+  display: block;
+  letter-spacing: 3px;
+  text-align: center;
+  line-height: 40px;
 }
 
 
-
+#page-content {
+  margin-left: 10%;
+}
 
 
 
